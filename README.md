@@ -16,3 +16,4 @@ You can clone the repository using the following command:
 git clone ghttps://github.com/sbanerj2/computer_vision_sp2025.git
 ```
 
+Note: For those of you who have trouble accessing the link can still find them at BrightSpace (Course content &gt; Content &gt; Practicals).
