@@ -7,7 +7,7 @@ For the first assignment, you are required to do the following:
 
 ### Deadline: February 28th, 2025 11:59 PM
 
-## Image Basics (Points: 13)
+## Image Basics (Total Points: 13)
 
 1. Read the image `Entlebucher.jpg` using OpenCV (Points: 1)
 
