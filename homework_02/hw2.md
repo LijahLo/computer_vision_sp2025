@@ -12,11 +12,11 @@ Setting up a stable environment for coding is your responsibility.
 
 ## Convolutions/Filtering (Total points: 20)
 
-1. Fill in the function, `convolution2D(image, kernel)` from `utils.py`. You are only allowed to use Numpy. Use appropriate padding to account for border pixels. Make sure you mention why you use that specific padding technique. (Points: 10). The `utils.py` is also your deliverable along with the `.ipynb` file.
+1. Fill in the function, `convolution2D(image, kernel)` from `util.py`. You are only allowed to use Numpy. Use appropriate padding to account for border pixels. Make sure you mention why you use that specific padding technique. (Points: 10). The `util.py` is also your deliverable along with the `.ipynb` file.
 
-2. Test the `convolution2D(image, kernel)` function from  `utils.py` on the image (NYC skyline) supplied, NYC_Manhattan.jpeg with the *embossing kernel* taught in class. You would need to create a jupyter notebook (<Your_name>_Assignment2.ipynb) and import your function from `utils.py` as shown in `practical03.ipynb`. (Points: 5)
+2. Test the `convolution2D(image, kernel)` function from  `util.py` on the image (NYC skyline) supplied, NYC_Manhattan.jpeg with the *embossing kernel* taught in class. You would need to create a jupyter notebook (<Your_name>_Assignment2.ipynb) and import your function from `util.py` as shown in `practical03.ipynb`. (Points: 5)
 
-3. Test the `convolution2D(image, kernel)` function from  `utils.py` on the image supplied (NYC skyline, NYC_Manhattan.jpeg) with the *Laplacian kernel* taught in class. (Points: 5)
+3. Test the `convolution2D(image, kernel)` function from  `util.py` on the image supplied (NYC skyline, NYC_Manhattan.jpeg) with the *Laplacian kernel* taught in class. (Points: 5)
 
 
 ## Image Sketch (Total Points : 20)
@@ -27,7 +27,7 @@ Setting up a stable environment for coding is your responsibility.
 
 5. You are required to create a panorama using the images from `office_2/officepic*.jpg`. You will be graded based on the following:
 
-    - Create a function in `utils.py` that reads the images reserved for panorama and stores them as a list for processing. Your function should be able to read arbitrary number of image.(Points : 5)
+    - Create a function in `util.py` that reads the images reserved for panorama and stores them as a list for processing. Your function should be able to read arbitrary number of image.(Points : 5)
 
     - Create panorama using OpenCV as shown in tutorial, `practical_03.ipynb` (Points : 10)
 
@@ -47,7 +47,7 @@ There are 3 deliverables for this assignment.
 
 * The jupyter notebook with answers to questions written as markdown (Qs. 1) and displayed on screen (Qs. 2, 3, 4, 5). You should add comments to your code at every step.  If you forget to do so, you won't get full score. **Naming convention: <Your_name>_Assignment2.ipynb** eg. John_Doe_Assignment2.ipynb
 
-* The `utils.py` with your defined functions.
+* The `util.py` with your defined functions.
 
 * Write-up on RANSAC algorithm (for graduate students only) as a pdf or word file.
 **Naming convention: John_Doe_Assignment2.pdf or John_Doe_Assignment2.docx**
